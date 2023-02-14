@@ -1,0 +1,176 @@
+body 
+{
+    color: white;
+}
+
+.container-fluid 
+{
+    padding: 0;
+}
+
+.nationalnews 
+{
+    background: linear-gradient(to bottom, #093B80,#0346A0 );
+    padding-top: 10px;
+    strong
+    {
+        border-bottom: 2px solid white;
+    }
+    .fa-x 
+    {
+        margin-top: 20px;
+    }
+}
+
+.welcome 
+{
+    background-color: #012B61;
+    a 
+    {
+        color: white;
+        text-decoration: none;
+    }
+    .fontsize 
+    {
+        .s 
+        {
+            font-size: 12px;
+            padding-right: 6px;
+        }
+        .m
+        {
+            font-size: 14px;
+            padding-right: 6px;
+        }
+        .l
+        {
+            font-size: 16px;
+        }
+    }
+    .custom-select 
+    {
+        background: none;
+        color: white;
+        border: none;
+        option 
+        {
+            color: black;
+        }
+    }
+}
+
+.header 
+{
+    color: #C50714;
+    .img 
+    {
+        img 
+        {
+            width: 100px;
+        }
+    }
+    .spart
+    {
+        img 
+        {
+            width: 60px;
+            height: 80px;
+        }
+    }
+    p 
+    {
+        margin-bottom: 0px;
+    }
+}
+
+.nav 
+{
+    background-color: #0247A2;
+    .navbar-brand, .nav-link
+    {
+        color: white;
+    }
+    .nav-item:hover
+    {
+        .dropdown-menu 
+        {
+            display: block;
+        }
+    }
+    .dropdown-menu 
+    {
+        .dropdown-item 
+        {
+            transition: 0.3s;
+        }
+        li 
+        {
+            margin: 0 6px;
+            &:hover 
+            {
+                .dropdown-item 
+                {
+                    color: white;
+                    background-color: #0247A2;
+                }
+            }
+        }
+    }
+}
+
+.carousal 
+{
+    .row
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .col-lg-9, .col-lg-3 
+    {
+        padding: 0;
+    }
+    .carousel-inner 
+    {
+        img 
+        {
+            height: 600px;
+        }
+    }
+    .carousel-caption 
+    {
+        left: -50%;
+        p 
+        {
+            background-color: #0247A2;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+    }
+    .carousel-control-prev-icon , .carousel-control-next-icon
+    {
+        background-color: #0247A2;
+        background-size: 18px;
+        padding: 0px;
+        border-radius: 50%;
+    }
+    .item1
+    {
+        img 
+        {
+            padding-left: 140px;
+        }
+    }
+    .col-lg-3 
+    {
+        background-color: #0247A2;
+        img 
+        {
+            width: 80px;
+            margin-right: 20px;
+        }
+        p 
+        {
+            margin: 0;
+        }
+    }
+}

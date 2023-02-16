@@ -125,7 +125,7 @@ body
         width: 100%;
         margin: 0;
     }
-    .col-lg-9, .col-lg-3 
+    .col-xl-9, .col-xl-3 
     {
         padding: 0;
     }
@@ -160,7 +160,7 @@ body
             padding-left: 140px;
         }
     }
-    .col-lg-3 
+    .col-xl-3 
     {
         background-color: #0247A2;
         img 
@@ -172,5 +172,494 @@ body
         {
             margin: 0;
         }
+    }
+}
+
+.services 
+{
+    .head 
+    {
+        h4
+        {
+            color: black;
+            strong 
+            {
+                border-bottom: 2px solid #0247A2;
+            }
+        }
+        button 
+        {
+            padding: 5px 20px;
+            border-radius: 5px;
+            border: 1px solid #0247A2;
+            transition: 0.3s;
+            &:hover
+            {
+                background-color: #0247A2;
+                color: white;
+            }
+        }
+    }
+    .sbox 
+    {
+        background-color: #013271;
+        width: 19%;
+        img 
+        {
+            width: 60px;
+        }
+        p 
+        {
+            padding-top: 10px;
+        }
+    }
+}
+
+
+.highlights 
+{
+    .fpart
+    {
+        padding: 40px 20px;
+        background-color: #0247A2;
+        p 
+        {
+            font-size: 14px;
+        }
+        hr 
+        {
+            opacity: 1;
+            margin-top: 20px;
+        }
+    }
+    .col-lg-8 
+    {
+        background-color: #0247A2;
+    }
+    .spart
+    {
+        padding: 20px;
+        .nav-link.active
+        {
+            background-color: #013271;
+        }
+        .fade:not(.show)
+        {
+            display: none;
+        }
+        .tab-pane
+        {
+            height: 340px;
+            overflow: auto;
+        }
+        button 
+        {
+            padding: 5px 15px;
+            border-radius: 5px;
+            border: none;
+            color: #0247A2;
+        }
+    }
+}
+
+.office
+{
+    h4 
+    {
+        color: black;
+        strong 
+        {
+            border-bottom: 2px solid #0247A2;
+        }
+    }
+    img 
+    {
+        width: 60%;
+    }
+    .otexts
+    {
+        background-color: #0247A2;
+        text-align: center;
+        padding: 10px;
+        p 
+        {
+            margin-bottom: 4px;
+        }
+        .oborder 
+        {
+            border: 1px solid white;
+            padding: 40px 30px 30px 30px;
+        }
+    }
+}
+
+.mission
+{
+    background: linear-gradient(90deg,#0247A2 30%,#fff 0);
+    padding: 36px 0;
+    h4 
+    {
+        strong 
+        {
+            border-bottom: 2px solid #0247A2;
+        }
+    }
+    img 
+    {
+        width: 450px;
+    }
+    color: black;
+    p 
+    {
+        margin-bottom: 4px;
+    }
+    button 
+    {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #0247A2;
+        color: white;
+    }
+}
+
+.gallery
+{
+    h4
+    {
+        color: black;
+        strong 
+        {
+            border-bottom: 2px solid #0247A2;
+        }
+    }
+    button 
+    {
+        padding: 5px 20px;
+        border-radius: 5px;
+        border: 1px solid #0247A2;
+        transition: 0.3s;
+        &:hover
+        {
+            background-color: #0247A2;
+            color: white;
+        }
+    }
+    ul
+    {
+        margin: auto;
+        width: 240px;
+        li 
+        {
+            background-color: #F2F2F2;
+            display: inline-block;
+            border-radius: 50px;
+        }
+    }
+    .nav 
+    {
+        background: none;
+    }
+    .nav-pills .nav-link.active
+    {
+        background-color: #0247A2;
+        border-radius: 50px;
+    }
+    .nav-link 
+    {
+        color: #A1A1A1;
+    }
+    .fade:not(.show)
+    {
+        display: none;
+    }
+    .tab-pane
+    {
+        img 
+        {
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;
+        }
+        p 
+        {
+            color: black;
+        }
+        .col-lg-3 
+        {
+            div 
+            {
+                transition: 0.4s;
+            }
+            div:hover 
+            {
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+.footer
+{
+    background-color: #023982;
+    a 
+    {
+        color: white;
+        padding-right: 30px;
+    }
+    ul
+    {
+        height: 260px;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        li 
+        {
+            list-style: none;
+        }
+    }
+    iframe
+    {
+        width: 280px;
+        height: 250px;
+    }
+}
+
+.copyrights
+{
+    background-color: #012B61;
+    padding-top: 16px;
+    span 
+    {
+        background-color: #0247A2;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:1200px)
+{
+    h4 
+    {
+        font-size: 16px;
+    }
+    p 
+    {
+        font-size: 14px;
+    }
+    .custom-select, .fontsize .l
+    {
+        font-size: 14px !important;
+    }
+    .fontsize .m
+    {
+        font-size: 12px !important;
+    }
+    .fontsize .s 
+    {
+        font-size: 10px !important;
+    }
+    .welcome .dropdown, .welcome .form-check label
+    {
+        font-size: 14px;
+    }
+    h5 
+    {
+        font-size: 16px;
+    }
+    .footer iframe {
+        width: 230px;
+        height: 220px;
+    }
+    .carousal .col-xl-3 
+    {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        .pt-4 
+        {
+            padding: 0 !important;
+        }
+    }
+}
+
+@media (max-width:992px)
+{
+    .nationalnews
+    {
+        display: none;
+    }
+    .welcome 
+    {
+        .spart 
+        {
+            display: none;
+        }
+    }
+    .nav 
+    {
+        .navbar-toggler
+       {
+            color: white;
+       } 
+    }
+    .carousal .item1 img {
+        padding-left: 0px;
+    }
+    .highlights
+    {
+        .col-lg-4 
+        {
+            padding-bottom: 30px;
+        }
+    }
+    .mission
+    {
+        background: none;
+    }
+    .gallery 
+    {
+        .col-lg-3 
+        {
+            div 
+            {
+                text-align: center;
+                img 
+                {
+                    width: 50%;
+                }
+                .justify-content-between 
+                {
+                    justify-content: center !important;
+                    p 
+                    {
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .copyrights 
+    {
+        .row, .text-end
+        {
+            text-align: center !important;
+        }
+    }
+}
+
+@media (max-width:768px)
+{
+    .carousal .carousel-inner img {
+        height: 450px;
+    }
+    .header 
+    {
+        p 
+        {
+            font-size: 12px;
+        }
+        h3 
+        {
+            font-size: 14px;
+        }
+        .img img 
+        {
+            width: 65px;
+        }
+        .spart img 
+        {
+            width: 40px;
+            height: 55px;
+        }
+        .spart 
+        {
+            p 
+            {
+                display: none;
+            }
+        }
+    }
+    .carousal 
+    {
+        .col-xl-9 
+        {
+            padding-bottom: 20px;
+        }
+        .col-xl-3
+        {
+            flex-direction: column;
+            .d-flex 
+            {
+                padding-bottom: 10px !important;
+            }
+        }
+    }
+    .services 
+    {
+        .flexx 
+        {
+            .d-flex
+            {
+                flex-direction: column;
+            }
+            .sbox 
+            {
+                width: 100%;
+                display: flex;
+                margin-top: 10px;
+                .img 
+                {
+                    padding-right: 10px;
+                    img 
+                    {
+                        width: 50px;
+                    }
+                }
+            }
+            .pt-5, .pb-4
+            {
+                padding: 20px 10px !important;
+            }
+            .pt-3
+            {
+                padding: 0 !important;
+            }
+        }
+    }
+}
+
+@media (max-width:500px)
+{
+    .mission img 
+    {
+        width: 100%;
+    }
+    .copyrights
+    {
+        p 
+        {
+            font-size: 10px;
+        }
+    }
+    .gallery .tab-pane img
+    {
+        height: 160px;
+    }
+    .carousal .carousel-inner img {
+        height: 300px;
+    }
+    .header 
+    {
+        p 
+        {
+            font-size: 10px;
+        }
+        h3 
+        {
+            font-size: 12px;
+        }
+        
     }
 }

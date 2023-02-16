@@ -516,6 +516,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .welcome p {
+    font-size: 12px;
+  }
   .mission img {
     width: 100%;
   }
